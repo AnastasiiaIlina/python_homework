@@ -41,4 +41,13 @@
 # print(str_c)
 # print([1, 3] + [9, 27])
 
-print(('four', ) * 4)
+# print(('four', ) * 4)
+
+x = 10
+for i in [1,2,3,4,5]:
+    if i % 2 == 0:
+        break
+    x -= i
+else:
+    x = 10
+print(x)
