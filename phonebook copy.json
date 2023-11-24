@@ -1,0 +1,32 @@
+[
+    {
+        "firsr_name": "John",
+        "last_name": "Smith",
+        "tel": "+1 1234567890",
+        "city": "New York"
+    },
+    {
+        "firsr_name": "Emma",
+        "last_name": "Johnson",
+        "tel": "+44 987654321",
+        "city": "London"
+    },
+    {
+        "firsr_name": "Liam",
+        "last_name": "Williams",
+        "tel": "+1 2345678901",
+        "city": "Toronto"
+    },
+    {
+        "firsr_name": "Olivia",
+        "last_name": "Brown",
+        "tel": "+61 432109876",
+        "city": "Sydney"
+    },
+    {
+        "firsr_name": "Noah",
+        "last_name": "Lee",
+        "tel": "+82 9876543210",
+        "city": "Seoul"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "VM11",
+        "processor": "Intel Core i7",
+        "memory": "99GB",
+        "storage": "1TB",
+        "location": "Paris, France Cloud Hub",
+        "region": "Europe (France)",
+        "provider": "Provider K"
+    },
+    {
+        "name": "VM29",
+        "processor": "Intel Xeon",
+        "memory": "99GB",
+        "storage": "500GB",
+        "location": "Paris, France Cloud Hub",
+        "region": "Europe (France)",
+        "provider": "Provider CC"
+    }
+]
