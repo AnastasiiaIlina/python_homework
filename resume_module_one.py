@@ -4,37 +4,37 @@
 # - Які 3 продукти ваші клієнти купують найрідше?
 # - Скільки разів клієнти купували кожен з ваших продуктів?
 
-orders_data = ['Banana', 'Apple', 'Tomato','Potatoes', 'Cucumber', 'Apple',  'Apple',  'Apple', 'Tomato', 'Cucumber']
-orders_stats = dict()
+# orders_data = ['Banana', 'Apple', 'Tomato','Potatoes', 'Cucumber', 'Apple',  'Apple',  'Apple', 'Tomato', 'Cucumber']
+# orders_stats = dict()
 
-for order in orders_data:
-    if order in orders_stats:
-        orders_stats[order] += 1
-    else:
-        orders_stats[order] = 1
+# for order in orders_data:
+#     if order in orders_stats:
+#         orders_stats[order] += 1
+#     else:
+#         orders_stats[order] = 1
 
-def last(n):
-    return n[1]
+# def last(n):
+#     return n[1]
 
-orders_tuples = [(k, v) for k, v in orders_stats.items()]
+# orders_tuples = [(k, v) for k, v in orders_stats.items()]
 
 
-def print_max_demand_products(products_tuple):
-    max_demand_products = sorted(products_tuple, key=last)[-3:]
-    print('Клієнти найчастіше купують: ')
+# def print_max_demand_products(products_tuple):
+#     max_demand_products = sorted(products_tuple, key=last)[-3:]
+#     print('Клієнти найчастіше купують: ')
 
-    for product in max_demand_products:
-        print(f'Продукт {product[0]} був куплений {product[1]} разів')
+#     for product in max_demand_products:
+#         print(f'Продукт {product[0]} був куплений {product[1]} разів')
 
-def print_min_demand_products(products_tuple):
-    min_demand_products = sorted(products_tuple, key=last)[:3]
-    print('Клієнти найрідше купують: ')
+# def print_min_demand_products(products_tuple):
+#     min_demand_products = sorted(products_tuple, key=last)[:3]
+#     print('Клієнти найрідше купують: ')
 
-    for product in min_demand_products:
-        print(f'Продукт {product[0]} був куплений {product[1]} разів')
+#     for product in min_demand_products:
+#         print(f'Продукт {product[0]} був куплений {product[1]} разів')
 
-print_max_demand_products(orders_tuples)
-print_min_demand_products(orders_tuples)
+# print_max_demand_products(orders_tuples)
+# print_min_demand_products(orders_tuples)
 
 
 
@@ -45,9 +45,22 @@ print_min_demand_products(orders_tuples)
 # Створіть список чисел від 1 до 10 за допомогою list comprehension.
 # Створіть множину квадратів чисел від 1 до 10 за допомогою set comprehension.
 # Створіть словник, де ключами будуть числа від 1 до 5, а значеннями їх квадрати, за допомогою dict comprehension.
+# numbers_list = [number for number in range(1,11)]
+# sqt_list = {number ** 2 for number in range(1,11) }
+
+# my_dict = {value: value ** 2 for value in range(1,6) }
+
+# print(my_dict)
+
 
 # 4. 
 # Використовуючи цикл while, зчитуйте числа з користувача до тих пір, поки він не введе 0.
+
+# while True:
+#     user_number = input('Enter number: ') 
+
+#     if int(user_number) == 0:
+#         break
 
 # 5. 
 # Створіть функцію, яка обчислює середнє арифметичне зі списку чисел.

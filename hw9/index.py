@@ -1,8 +1,9 @@
 # Task 1
 # Imports practice
 #  Make a directory with 2 modules; make a function in one of them; then import this function in the other module and use that in your script of choice.
-# from number_operations import sum
-# print(sum(5,7))
+
+from number_operations import sum
+print(sum(5,7))
  
 
 # Task 2
@@ -11,25 +12,15 @@
 
 import sys
 
-#  The search path can be manipulated from within a Python program as the variable sys.path.
+# The search path can be manipulated from within a Python program as the variable sys.path.
+# For example create folder helpers_for_hw9. There is a module math_operations in this folder. Try to use multiply function from this module.
+# We have to change sys.path:
 
- 
+sys.path.append('/Users/ilina/Documents/python_course/helpers_for_hw9')
+print(sys.path)
 
-# Task 3
+# After that we can successfully use our math_operations module:
 
-# Basics, import, work with os module
+import math_operations
 
-# Write a program that counts lines and characters in a file (similar to `wc` Unix-utility, for additional info about it follow the link: https://www.geeksforgeeks.org/wc-command-linux-examples/ or in case you have macOS or Linux - just call manual for this utility via command: `man wc`).
-
-#  Create a Python module called "mymod.py", which has three functions:
-
-# count_lines(name) function that reads an input file and counts the number of lines in it (hint: file.readlines() does most of the work for you, and "len" does the rest) 
-# count_chars(name) function that reads an input file and counts the number of characters in it (hint: file.read() returns a single string)
-# test(name) function that calls both counting functions with a given input file­name. Such a filename generally might be passed-in, hard-coded, input with input(), or pulled from a command-line via the sys.argv list; for now, assume it’s a passed-in function argument.
-# All three `mymod.py` functions should expect a filename string to be passed in. 
-
-# Test your module interactively, using import and name qualification to fetch your exports. 
-
-# Does your PYTHONPATH need to include the directory where you created mymod.py?
-
-# Try running your module on itself: e.g., test("mymod.py"). Note that the test opens the file twice; if you’re feeling ambitious, you may be able to improve this by passing an open file object into the two count functions (hint: file.seek(0) is a file rewind).
+print(math_operations.multiply(5,4))
