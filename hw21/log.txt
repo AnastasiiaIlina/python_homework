@@ -1,0 +1,60 @@
+File myfile.txt is opened
+File myfile.txt is closed
+Total closed files -  1
+-----------------
+File myfile.txt is opened
+File myfile.txt is closed
+Total closed files -  2
+-----------------
+File myfile.txt is opened
+File myfile.txt is closed
+Total closed files -  1
+-----------------
+File myfile.txt is opened
+File myfile.txt is closed
+Total closed files -  1
+-----------------
+File myfile.txt is opened
+File myfile.txt is closed
+Total closed files -  2
+-----------------
+File myfile.txt is opened
+File myfile.txt is closed
+Total closed files -  1
+-----------------
+File myfile.txt is opened
+File myfile.txt is closed
+Total closed files -  2
+-----------------
+File myfile.txt is opened
+File myfile.txt is closed
+Total closed files -  1
+-----------------
+File myfile.txt is opened
+File myfile.txt is closed
+Total closed files -  2
+-----------------
+File myfile.txt is opened
+File myfile.txt is closed
+Total closed files -  1
+-----------------
+File myfile.txt is opened
+File myfile.txt is closed
+Total closed files -  2
+-----------------
+File myfile.txt is opened
+File myfile.txt is closed
+Total closed files -  1
+-----------------
+File myfile.txt is opened
+File myfile.txt is closed
+Total closed files -  2
+-----------------
+File myfile.txt is opened
+File myfile.txt is closed
+Total closed files -  1
+-----------------
+File myfile.txt is opened
+File myfile.txt is closed
+Total closed files -  2
+-----------------

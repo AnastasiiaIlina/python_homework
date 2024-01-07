@@ -1,0 +1,3 @@
+Hello, World!
+New string!
+New string!
