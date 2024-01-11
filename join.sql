@@ -102,14 +102,43 @@ where orders.order_date > '2010-01-10'
 
 
 # 17. Retrieve a list of customers and suppliers who are located in the same city. Display the company name and city for both customers and suppliers. If a city doesn't have any customers or suppliers, show "No Data" for the missing side.
-select suppliers.city as supplier_city, customers.city as customer_city from customers
+select 
+suppliers.company_name as supplier_company, 
+COALESCE(suppliers.city, 'Data not found') as supplier_city, 
+customers.company_name as customers_company, 
+COALESCE(customers.city, 'Data not found') as customer_city
+from customers
 inner join orders on customers.customer_id = orders.customer_id
 inner join order_details on order_details.order_id = orders.order_id
 Inner join products on products.product_id = order_details.product_id
-inner join suppliers on products.supplier_id = suppliers.supplier_id 
-where supplier_city = customers.city
+left join suppliers on products.supplier_id = suppliers.supplier_id 
+where customer_city = supplier_city
 
 
 # 18. Generate a detailed report that showcases product details, product categories, and customer orders. Display the product name, category name, customer's company name, and the order date for all orders containing products from a specific category.
 
+select 
+products.product_name, 
+categories.category_name, 
+customers.company_name,
+orders.order_date
+from products
+inner join categories on products.category_id = categories.category_id
+inner join order_details on order_details.product_id = products.product_id
+inner join orders on orders.order_id = order_details.order_id
+inner join customers on customers.customer_id = orders.customer_id
+where categories.category_name = 'Produce'
+
 # 19. Create a report that combines supplier information, product details, and employee territories. Display the supplier's company name, product name, and the territory description for employees responsible for orders containing these products.
+
+select 
+suppliers.company_name as supplier_company_name,
+products.product_name,
+territories.territory_description
+from suppliers
+inner join products on products.supplier_id = suppliers.supplier_id
+inner join order_details on order_details.product_id = products.product_id
+inner join orders on order_details.order_id = orders.order_id
+inner join employees on orders.employee_id = employees.employee_id
+inner join employee_territories on employee_territories.employee_id = employees.employee_id
+inner join territories on employee_territories.territory_id = territories.territory_id

@@ -1,15 +1,5 @@
 File myfile.txt is opened
-File myfile.txt is closed
-Total closed files -  1
------------------
 File myfile.txt is opened
-File myfile.txt is closed
-Total closed files -  2
------------------
-File myfile.txt is opened
-File myfile.txt is closed
-Total closed files -  1
------------------
 File myfile.txt is opened
 File myfile.txt is closed
 Total closed files -  1
@@ -18,43 +8,135 @@ File myfile.txt is opened
 File myfile.txt is closed
 Total closed files -  2
 -----------------
-File myfile.txt is opened
-File myfile.txt is closed
+File my_file.txt is opened
+File my_file.txt is closed
 Total closed files -  1
 -----------------
-File myfile.txt is opened
-File myfile.txt is closed
+File my_file.txt is opened
+File my_file.txt is closed
 Total closed files -  2
 -----------------
-File myfile.txt is opened
-File myfile.txt is closed
+File test_log.txt is opened
+File test_log.txt is opened
+File test_log.txt is closed
+Total closed files -  4
+-----------------
+File test_log.txt is closed
+Total closed files -  4
+-----------------
+File test_log.txt is opened
+File test_log.txt is closed
+Total closed files -  5
+-----------------
+File my_file.txt is opened
+File my_file.txt is closed
 Total closed files -  1
 -----------------
-File myfile.txt is opened
-File myfile.txt is closed
+File my_file.txt is opened
+File my_file.txt is closed
 Total closed files -  2
 -----------------
-File myfile.txt is opened
-File myfile.txt is closed
+File test_log.txt is opened
+File test_log.txt is opened
+File test_log.txt is closed
+Total closed files -  4
+-----------------
+File test_log.txt is closed
+Total closed files -  4
+-----------------
+File test_log.txt is opened
+File test_log.txt is closed
+Total closed files -  5
+-----------------
+File my_file.txt is opened
+File my_file.txt is closed
 Total closed files -  1
 -----------------
-File myfile.txt is opened
-File myfile.txt is closed
+File my_file.txt is opened
+File my_file.txt is closed
 Total closed files -  2
 -----------------
-File myfile.txt is opened
-File myfile.txt is closed
+File test_log.txt is opened
+File test_log.txt is opened
+File test_log.txt is closed
+Total closed files -  4
+-----------------
+File test_log.txt is closed
+Total closed files -  4
+-----------------
+File my_file.txt is opened
+File my_file.txt is closed
 Total closed files -  1
 -----------------
-File myfile.txt is opened
-File myfile.txt is closed
+File my_file.txt is opened
+File my_file.txt is closed
 Total closed files -  2
 -----------------
-File myfile.txt is opened
-File myfile.txt is closed
+File test_log.txt is opened
+File test_log.txt is closed
+Total closed files -  3
+-----------------
+File test_log.txt is opened
+File test_log.txt is closed
+Total closed files -  4
+-----------------
+File test_log.txt is opened
+File test_log.txt is opened
+File test_log.txt is closed
+Total closed files -  6
+-----------------
+File test_log.txt is closed
+Total closed files -  6
+-----------------
+File test_log.txt is opened
+File test_log.txt is closed
+Total closed files -  7
+-----------------
+File test_log.txt is opened
+File test_log.txt is closed
+Total closed files -  8
+-----------------
+File my_file.txt is opened
+File my_file.txt is closed
 Total closed files -  1
 -----------------
-File myfile.txt is opened
-File myfile.txt is closed
+File my_file.txt is opened
+File my_file.txt is closed
 Total closed files -  2
+-----------------
+File test_log.txt is opened
+File test_log.txt is opened
+File test_log.txt is closed
+Total closed files -  4
+-----------------
+File test_log.txt is closed
+Total closed files -  4
+-----------------
+File test_log.txt is opened
+File test_log.txt is opened
+File test_log.txt is closed
+Total closed files -  2
+-----------------
+File test_log.txt is closed
+Total closed files -  2
+-----------------
+File test_log.txt is opened
+File test_log.txt is opened
+File test_log.txt is closed
+Total closed files -  2
+-----------------
+File test_log.txt is closed
+Total closed files -  2
+-----------------
+File test_log.txt is opened
+File test_log.txt is opened
+File test_log.txt is closed
+Total closed files -  2
+-----------------
+File test_log.txt is closed
+Total closed files -  2
+-----------------
+File test_log.txt is opened
+File test_log.txt is closed
+Total closed files -  3
 -----------------
