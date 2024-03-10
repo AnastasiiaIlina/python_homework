@@ -1,9 +1,9 @@
 import random
 import time
 
-# selection sort
 test_data = [random.randint(0,100000) for _ in range(1000)] 
 
+# selection sort
 def sort_by_selection_method(array):
     for i in range(len(array)): 
         min_index = i 
@@ -15,6 +15,7 @@ def sort_by_selection_method(array):
 
     return array
 
+# merge sort
 def sort_by_merge_method(array):
     if len(array) > 1:
 
